@@ -14,3 +14,21 @@ html {
     background-color: black;
     opacity: 0.5
 }
+.hero-desktop {
+    display: block;
+}
+
+.hero-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hero-desktop {
+        display: none;
+    }
+    .hero-mobile {
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+}
